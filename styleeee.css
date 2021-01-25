@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+body{
+	background: #272734;
+}
+
+.imageen svg{
+	width: 33%;
+	transform: translate(780px, -120px);
+}
+.cabezera{
+	background: #272734;
+    color: white;
+    padding: 1.2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: inline-block;
+    z-index: 100;
+    opacity: 100; 
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    
+    
+
+}
+
+.navegation{
+	 display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+
+}
+
+
+.relleno {
+	background: #ffcd1f;
+	color: #17202A ;
+	transition: all 0.2s linear;
+	justify-content: center;
+	text-align: center;
+
+
+}
+
+.cabezera a{
+	font-family: 'Roboto', sans-serif; 
+	text-decoration: none; 
+	color: #fff;
+	text-align: center; 
+	font-size: 110%;
+}
+
+
+.cabezera ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.cabezera ul li{
+	display: inline-block;
+
+}
+
+.cabezera ul li a{
+	font-family: 'Roboto', sans-serif; 
+	display: block; 
+	padding: 0.6rem 1rem; 
+	transition: all 0.5s linear;
+     border-radius: 10px;
+     transform: translate(780px, 2px);
+     justify-content: space-between;
+     font-weight: bold;
+     letter-spacing: 1px;
+
+}
+
+.cabezera ul li a:hover{
+	
+	color: #ffcd1f; 
+	
+}
+
+
+.cabezera .relleno:hover{
+	color: #17202A;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.contenedooor{
+	transform: translate(145px, 180px);
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 245%;
+	letter-spacing: 4px;
+	
+
+}
+
+
+.contenedoooor{
+	transform: translate(145px, 180px);
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 130%;
+	letter-spacing: 1px;
+	
+
+}
+
+#Buttonn {
+     font-family: 'Roboto', sans-serif;
+     display: block;
+     width: 100px;
+     color: #fff;
+     text-decoration: none;
+     padding: 6px;
+     cursor: pointer;
+     border: 3px solid #ffcd1f;
+     transition: all 0.3s linear;
+     transform: translate(3px, 22px);
+     z-index: 100;
+     position: relative;
+     letter-spacing: 0.1px;
+     font-weight: 50;
+     
+
+}
+
+#Buttonn a{
+	text-align: center;
+}
+
+#Buttonn:hover{
+	background: #ffcd1f;
+	color: #17202A;
+}
+
+
+.wavees{
+	position: absolute;
+	transform: translate(0px, -342px);
+	left: 0;
+	
+	width: 100%;
+
+
+	
+    
+}

@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+
+#banner{
+    margin-top: 95px;
+    position: relative;
+    
+}
+
+#banner img{
+    margin-top: 95px;
+    width: 100%;
+    height: 100%
+    
+    
+}
+
+
+#banner .contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #272734;
+
+
+}
+
+#banner p{
+    margin-top: 0.9em;
+}
+
+#banner h2{
+    font-size: 28px;
+
+}
+
+#banner a{
+    display: block;
+     width: 100px;
+     color: #272734;
+     text-decoration: none;
+     padding: 7px;
+     margin-top: 10px;
+     border: 3px solid #ffcd1f;
+     transition: all 0.4s linear;
+
+
+}
+
+#banner a:hover{
+    background: #ffcd1f;
+    color: #272734;
+}
+
+
+}
+
+
+@media (min-width:480px) {
+    #banner h2{
+         font-size: 40px;
+    }
+
+    #banner a{
+        margin-top: 25px;
+
+    }
+}
+
+@media (min-width:768px) {
+
+    #banner{
+        height: 385px;
+        overflow: hidden;
+
+    }
+
+    #banner img{
+        height: auto;
+        margin-top: -100px;
+    }
+
+}

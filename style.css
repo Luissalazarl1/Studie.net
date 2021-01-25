@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+ color: #333; 
+ font-size: 1.1rem;
+ line-height: 1.6em;
+ margin: 0;
+ b
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1.6em;
+}
+
+ .container{
+     width: 85%;
+     max-width: 850px;
+     margin: 0 auto;
+ }
+
+ .header{
+
+    background: #272734;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: inline-block;
+    z-index: 100;
+    
+    
+    
+ }
+ 
+     
+
+ .header a{
+     color: white;
+     text-decoration: none;
+
+ }
+
+ .logo-nav-container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap; 
+ }
+
+
+ .logo{
+     font-family: 'Roboto', sans-serif;
+     letter-spacing: 1px;
+     font-size: 1.2em;
+     display: inline-block;
+    
+ }
+.menu-icon{
+     display: none;
+}
+ .navigation ul{
+     
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+
+  .navigation ul li{
+      
+      display: inline-block;
+  }
+ 
+ .navigation ul li a{
+     display: block;
+     padding: 0.5rem 1rem;
+     transition: all 0.4s linear;
+     border-radius: 35px;
+ }
+
+   .navigation ul li a:hover{
+       background: #4a4a4a;
+   }
+
+   .main{
+       padding-top: 3rem;
+   }
+
+   /* Boton ir arriba */
+
+.button-up {
+    
+    background: #3655EE;
+    display: ;
+    
+    padding-left: 10px; 
+    padding-right: 10px ;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    align-content: center; 
+    justify-content: center; 
+    align-items: center; 
+    color: white; 
+    font-size: 16px; 
+    border-radius: 6px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px; 
+    cursor: pointer; 
+    border: 3px solid transparent;
+    transition: all 145ms ease; 
+    z-index: 100;
+
+   
+    
+}      
+
+i{
+  display: inline-flex;
+  justify-content: center; 
+}
+
+
+   .button-up:hover{
+       transform: scale(1.1);
+       border-color: rgba(0, 0, 0, 0.1);
+
+   }
+
+
+    /* Boton ir arriba */
+
+
+     .footer{
+         background: #f2f2f2;
+          padding: 4rem 0;
+          text-align: center;
+          margin-top: 18%;
+
+
+     }
+
+     .wave{
+      padding:0;
+      margin: 0;
+      padding-bottom: 5em;
+      position: absolute; 
+     }
+
+ 
+@media only screen and (max-width: 767px) {
+ .menu-icon{
+     display: block;
+     cursor: pointer;
+     padding: 0.5 rem 1rem;
+ }
+
+ .navigation {
+     width: 100%;
+     margin-top: 1rem;
+ }
+
+ .navigation ul{
+     display: none;
+ }
+
+    .navigation ul.show{
+     display: block;
+ }
+  .navigation ul li{
+      display: inline-block;
+      margin-top: 1rem;
+  }
+ 
+ .navigation ul li a{
+     display: block;
+     padding: 0.5rem 0;
+     transition: all 0.4s linear;
+     border-radius: 5px;
+ }
+
+   .navigation ul li a:hover{
+       background: #4a4a4a;
+   }
+}
+.logo{
+    margin-right: 159px;
+}
+
+
+.logo{
+    margin-left: 5px;
+}
+
+
+
+
+
+

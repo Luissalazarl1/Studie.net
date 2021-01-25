@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+ *{
+ 	margin:0;
+ 	padding: 0;
+ 	
+ }
+
+
+ .booton{
+ 	box-sizing: border-box;
+ 	background: #272734;
+ 	padding: 14px 46px 14px 46px;
+ 	text-decoration: none; 
+ 	justify-content: center;
+ 	display: inline-block;
+ 	cursor: pointer; 
+ 	align-items: center;
+ 	align-content: center; 
+ 	transform: translate(120px, 50px);
+ 	
+ 	transition: all 0.5s linear;
+ 	letter-spacing: 0.8px; 
+ 	line-height: 25px;
+ 	border-radius: 3px; 
+ 	text-align: center; 
+
+
+
+ }
+
+
+
+ .booton a{
+ 	box-sizing: border-box; 
+ 	text-decoration: none; 
+ 	color: #fff;
+ 	font-family: 'Roboto', sans-serif;
+ 	margin-bottom: 2px;
+ 	justify-content: center;
+ 	align-items: center; 
+ 	font-size: 130%;
+
+ }
+
+
+
+ .booton i{
+ 	box-sizing: border-box; 
+ 	color: #fff;
+ 	font-size: 20px; 
+ 	justify-content: center;
+ 	align-content: center;
+ 	align-items: center; 
+ 
+ }
+
+ .booton:hover{
+ 	background: #3655EE;
+ 	webkit-box-shadow: 0 2px 4px rgba(0,0,0,.35);
+    box-shadow: 0 2px 4px rgba(0,0,0,.35);
+       border-color: rgba(0, 0, 0, 0.1);
+
+ }
+
+
+
+
+  /* Boton de regreso */
+
+
+   .back a{
+   	box-sizing: border-box;
+   	background: #272734;
+   padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	padding-right: 20px;
+ 	padding-left: 20px; 
+ 	display: inline-block;
+ 	color: #fff;
+ 	cursor: pointer; 
+ 	justify-content: center; 
+ 	text-align: center; 
+ 	transform: translate(55px, -15px);
+ 	z-index: 100;
+ 	transition: all 0.5s linear;
+ 	
+ 	
+   	
+   }
+
+   .back i{
+   	color: white;
+   	justify-content: center;
+   	text-align: center; 
+   	font-size: 150%;
+
+}
+
+
+.back a:hover{
+	background: #3655EE;
+ 	webkit-box-shadow: 0 2px 4px rgba(0,0,0,.35);
+    box-shadow: 0 2px 4px rgba(0,0,0,.35);
+       border-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+   /* Boton de regreso */
